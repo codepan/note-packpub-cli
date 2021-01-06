@@ -3,11 +3,11 @@ module.exports = {
   entry: './src',
   output: './dist',
   deploy: {
-    projectName: '',
-    rootPath: '',
+    projectName: 'packpub-cli',
+    rootPath: '/root/webroot',
     connectOptions: {
-      host: '',
-      user: ''
+      host: '47.108.95.110',
+      user: 'root'
     }
   }
 }
